@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Generator Project</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script>
+        $(function(){
+          $('button').click(function() {
+            //gets the inputs from the user
+            
+            var name = $('#name').val();
+            var email = $('#email').val();
+            var gpa = $('#gpa').val();
+            var phone = $('#phone').val();
+            var favColor = $('#favColor').val();
+            var border = $('#border').val();
+            var textColor = $('#textColor').val();
+            
+          });
+        });
+    </script>
+  </head>
+  <body>
+    Enter your name: <input id="name"><br>
+    Enter your email: <input id="email"><br>
+    Enter your GPA: <input id="gpa"><br>
+    Enter your phone number: <input id="phone"><br>
+    Enter your favorite color: <input id="favColor"><br>
+    Enter a value for border width: <input id="border"><br>
+    Enter a color for the text: <input id="textColor"><br>
+    <!--Enter your interests: <input id="interests"><br>-->
+    <button>Make info card!</button>
+    
+    <div id="card">
+      <h1></h1>
+      <h3></h3>
+      <!--<li></li>-->
+    </div>
+    
+  </body>
+</html>
