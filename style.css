@@ -2,3 +2,24 @@ input {
     margin: 10px;
     padding: 10px;
 }
+
+button {
+    padding: 5px;
+    background-color: lightblue;
+    margin-bottom: 10px
+}
+
+#card {
+    width: 400px;
+    height: 200px;
+    border-style: solid;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+h3 {
+    text-align: center;
+}
