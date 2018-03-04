@@ -12,17 +12,16 @@
             
             var name = $('#name').val();
             var email = $('#email').val();
-            var gpa = "GPA: " + $('#gpa').val();
             var phone = $('#phone').val();
             var favColor = $('#favColor').val();
             var border = $('#border').val();
             var textColor = $('#textColor').val();
-            var interests = "I am interested in " + $('#interests').val() + ".";
+            var interests = "My GPA is " + $('#gpa').val() + " and I am interested in " + $('#interests').val() + ".";
             
             $('#card').css("background-color", favColor).css("border-width", border);
             $('h1').html(name);
             $('#line1').html(email);
-            $('#line2').html(gpa);
+            // $('#line2').html(gpa);
             $('#line3').html(phone);
             $('#line4').html(interests);
             $('h1, h3').css("color", textColor);
@@ -37,7 +36,7 @@
     Enter your GPA: <br><input id="gpa"><br>
     Enter your phone number: <br><input id="phone"><br>
     Enter your favorite color: <br><input id="favColor"><br>
-    Thin, medium, or thick border?: <br><input id="border"><br>
+    Thin, medium, or thick border? <br><input id="border"><br>
     Enter a color for the text: <br><input id="textColor"><br>
     What majors are you interested in? <br><input id="interests"><br>
     <button>Make info card!</button>
